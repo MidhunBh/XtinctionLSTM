@@ -1,0 +1,21 @@
+name: extinction-xlstm
+channels:
+  - pytorch        # add this line
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - pytorch
+  - pip
+  - pip:
+      - torchdiffeq
+      - plotly
+      - jupyterlab
+      - ipywidgets
+      - seaborn
